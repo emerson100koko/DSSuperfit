@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --color-red: #f03c42;
+    --color-white: #FFFFFF;
+    --bg-blue-dark: #222374;
+    --color-black: #000000;
+    --color-gray: #CCCCCC;
+}
+
+* {
+    font-family: 'Open sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a,
+a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+
+header {
+    background-color: var(--color-red);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+nav h1 {
+    color: var(--color-white);
+    font-size: 18px;
+
+}
+
+nav a {
+    color: var(--color-white);
+    font-size: 14px;
+    padding: 10px;
+    width: 85px;
+    height: 19px;
+}
+
+nav img {
+    margin-left: auto;
+    width: 30px;
+    height: 30px;
+}
+
+#conheca {
+    background-color: var(--bg-blue-dark);
+    height: 418px;
+    padding: 20px;
+}
+
+.container-text {
+    color: var(--color-white);
+    font-size: 32px;
+    padding: 20px 0;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.container {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.card {
+    background-color: var(--color-gray);
+    height: 123px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.card h3 a {
+    height: 27px;
+    font-size: 20px;
+    display: flex;
+
+}
+
+#modalidade {
+    background-color: var(--color-white);
+    height: 880px;
+    padding: 40px;
+}
+
+.container-mod {
+    color: var(--color-red);
+    font-size: 32px;
+    padding: 20px 0;
+    width: 100% ;
+    max-width: 960px;
+    margin: 0 auto ;
+    flex-direction: column;
+    display: flex;
+    
+}
+
+
+.card-sport {
+    background-color: var(--bg-blue-dark);
+    height: 106px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 960px;
+    color: var(--color-white);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+footer {
+    background-color: var(--color-black);
+    max-width: 100%;
+    height: 262px;
+    color: var(--color-gray);
+    display: flex;
+    align-items: center;
+    
+}
+
+.card-footer {
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card-footer img {
+    padding: 10px;
+    flex-direction: column;
+
+}
+
+
+
+
+
+
